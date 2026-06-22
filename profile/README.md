@@ -14,7 +14,7 @@ Vel-Labs is not trying to make AI look magical. The goal is to make powerful sys
 
 | Lane | Repositories | Why it matters |
 | --- | --- | --- |
-| Agent workbenches | [CommandCode-UI](https://github.com/Vel-Labs/CommandCode-UI), [AOL](https://github.com/Vel-Labs/AOL) | Better operator surfaces for coding agents, sessions, permissions, diagnostics, routing, and durable state. |
+| Agent workbenches | [VelDesk](https://github.com/Vel-Labs/VelDesk), [AOL](https://github.com/Vel-Labs/AOL) | Better operator surfaces for coding agents, sessions, permissions, diagnostics, routing, and durable state. |
 | Capability layers | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) | Modular model tools with explicit permission boundaries, local workers, audit artifacts, and privacy-first architecture. |
 | Synthetic systems | [civulacrum](https://github.com/Vel-Labs/civulacrum) | Durable simulated citizens, memory, economy, media, governance, deterministic events, and consequence tracking. |
 | Local-first ML | [CareSight](https://github.com/Vel-Labs/CareSight), [yolo26-mlx-swift](https://github.com/Vel-Labs/yolo26-mlx-swift) | Private-context prototypes where raw data can stay local and humans remain in the decision path. |
@@ -25,7 +25,7 @@ Vel-Labs is not trying to make AI look magical. The goal is to make powerful sys
 
 | If you want to inspect... | Start with |
 | --- | --- |
-| A desktop cockpit for terminal-first coding agents | [CommandCode-UI](https://github.com/Vel-Labs/CommandCode-UI) |
+| A desktop cockpit for terminal-first coding agents | [VelDesk](https://github.com/Vel-Labs/VelDesk) |
 | A local-first agent orchestration/control-plane lab | [AOL](https://github.com/Vel-Labs/AOL) |
 | A synthetic society and deterministic simulation engine | [civulacrum](https://github.com/Vel-Labs/civulacrum) |
 | MCP-style capability boundaries for model tools | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) |
@@ -86,7 +86,7 @@ That standard is intentionally practical. AI systems get more useful when people
 
 For a first public pass, pin:
 
-1. [CommandCode-UI](https://github.com/Vel-Labs/CommandCode-UI)
+1. [VelDesk](https://github.com/Vel-Labs/VelDesk)
 2. [civulacrum](https://github.com/Vel-Labs/civulacrum)
 3. [vel-mcp](https://github.com/Vel-Labs/vel-mcp)
 4. [CareSight](https://github.com/Vel-Labs/CareSight)
