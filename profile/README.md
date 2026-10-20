@@ -14,9 +14,8 @@ Vel-Labs is not trying to make AI look magical. The goal is to make powerful sys
 
 | Lane | Repositories | Why it matters |
 | --- | --- | --- |
-| Agent workbenches | [VelDesk](https://github.com/Vel-Labs/VelDesk), [AOL](https://github.com/Vel-Labs/AOL) | Better operator surfaces for coding agents, sessions, permissions, diagnostics, routing, and durable state. |
+| Agent workbenches | [VelDesk](https://github.com/Vel-Labs/VelDesk) | Better operator surfaces for coding agents, sessions, permissions, diagnostics, routing, and durable state. |
 | Capability layers | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) | Modular model tools with explicit permission boundaries, local workers, audit artifacts, and privacy-first architecture. |
-| Synthetic systems | [civulacrum](https://github.com/Vel-Labs/civulacrum) | Durable simulated citizens, memory, economy, media, governance, deterministic events, and consequence tracking. |
 | Local-first ML | [CareSight](https://github.com/Vel-Labs/CareSight), [yolo26-mlx-swift](https://github.com/Vel-Labs/yolo26-mlx-swift) | Private-context prototypes where raw data can stay local and humans remain in the decision path. |
 | Agent authority | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) | Scoped, signable, auditable action paths for autonomous agents and human-supervised execution. |
 | Reliability and governance | [thc-methodology](https://github.com/Vel-Labs/thc-methodology), [project-scaffold](https://github.com/Vel-Labs/project-scaffold), [thc-leaderboard](https://github.com/Vel-Labs/thc-leaderboard) | Tools and doctrine for reducing hidden trust in software systems, docs, demos, and agent-assisted workflows. |
@@ -26,8 +25,6 @@ Vel-Labs is not trying to make AI look magical. The goal is to make powerful sys
 | If you want to inspect... | Start with |
 | --- | --- |
 | A desktop cockpit for terminal-first coding agents | [VelDesk](https://github.com/Vel-Labs/VelDesk) |
-| A local-first agent orchestration/control-plane lab | [AOL](https://github.com/Vel-Labs/AOL) |
-| A synthetic society and deterministic simulation engine | [civulacrum](https://github.com/Vel-Labs/civulacrum) |
 | MCP-style capability boundaries for model tools | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) |
 | A local-first caregiver awareness prototype | [CareSight](https://github.com/Vel-Labs/CareSight) |
 | Agent action authorization and signable intent flow | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) |
@@ -87,10 +84,9 @@ That standard is intentionally practical. AI systems get more useful when people
 For a first public pass, pin:
 
 1. [VelDesk](https://github.com/Vel-Labs/VelDesk)
-2. [civulacrum](https://github.com/Vel-Labs/civulacrum)
-3. [vel-mcp](https://github.com/Vel-Labs/vel-mcp)
-4. [CareSight](https://github.com/Vel-Labs/CareSight)
-5. [ClearIntent](https://github.com/Vel-Labs/ClearIntent)
-6. [thc-methodology](https://github.com/Vel-Labs/thc-methodology)
+2. [vel-mcp](https://github.com/Vel-Labs/vel-mcp)
+3. [CareSight](https://github.com/Vel-Labs/CareSight)
+4. [ClearIntent](https://github.com/Vel-Labs/ClearIntent)
+5. [thc-methodology](https://github.com/Vel-Labs/thc-methodology)
 
 Maintained by [@velcrafting](https://github.com/velcrafting).
