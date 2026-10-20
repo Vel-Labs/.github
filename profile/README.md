@@ -1,87 +1,52 @@
 <p align="center">
-  <img src="assets/vel-labs-readme-loop.svg" alt="Animated map showing Vel-Labs project lanes converging into inspectable AI systems with contracts, review gates, local-first defaults, and public repositories." width="100%">
+  <img src="assets/vel-labs-readme-loop.svg" alt="Connected project areas in the Vel-Labs research and building practice." width="100%">
 </p>
 
 # Vel-Labs
 
-Vel-Labs builds inspectable AI tooling and local-first product prototypes.
+Vel-Labs is the home for [Steven Pajewski's](https://github.com/velcrafting) public AI research, software experiments, and tools.
 
-The work spans coding-agent workbenches, agent orchestration, MCP capability layers, synthetic-society simulation, local ML applications, autonomous-agent authority, reliability methodology, and governance scaffolds. The shared standard is that important claims should be backed by visible contracts, tests, receipts, review gates, and source-of-truth boundaries.
+The work starts with practical friction: a capable coding agent that's hard to follow, a useful model that needs a better way to interact with software, or a prototype whose results need closer inspection. Building around those problems leads to interfaces, local AI applications, developer tools, and methods that can be reused across projects.
 
-Vel-Labs is not trying to make AI look magical. The goal is to make powerful systems useful, bounded, observable, and honest about what they can and cannot do.
+The larger goal is to make AI more useful in everyday work, with enough visibility for people to understand the result and decide what comes next.
 
 ## What We Build
 
 | Lane | Repositories | Why it matters |
 | --- | --- | --- |
-| Agent workbenches | [VelDesk](https://github.com/Vel-Labs/VelDesk) | Better operator surfaces for coding agents, sessions, permissions, diagnostics, routing, and durable state. |
-| Capability layers | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) | Modular model tools with explicit permission boundaries, local workers, audit artifacts, and privacy-first architecture. |
-| Local-first ML | [CareSight](https://github.com/Vel-Labs/CareSight), [yolo26-mlx-swift](https://github.com/Vel-Labs/yolo26-mlx-swift) | Private-context prototypes where raw data can stay local and humans remain in the decision path. |
-| Agent authority | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) | Scoped, signable, auditable action paths for autonomous agents and human-supervised execution. |
-| Reliability and governance | [thc-methodology](https://github.com/Vel-Labs/thc-methodology), [project-scaffold](https://github.com/Vel-Labs/project-scaffold), [thc-leaderboard](https://github.com/Vel-Labs/thc-leaderboard) | Tools and doctrine for reducing hidden trust in software systems, docs, demos, and agent-assisted workflows. |
+| Agent workbenches | [VelDesk](https://github.com/Vel-Labs/VelDesk) | Give people a clearer view of coding-agent sessions, permissions, and runtime state. |
+| Capability layers | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) | Connect models to tools such as vision and speech without treating every capability as the same permission. |
+| Local-first ML | [CareSight](https://github.com/Vel-Labs/CareSight), [yolo26-mlx-swift](https://github.com/Vel-Labs/yolo26-mlx-swift) | Explore what AI can do close to the user, from home-care observations to vision on Apple hardware. |
+| Agent authority | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) | Make proposed agent actions easier to review and authorize before they affect other systems. |
+| Reliability and governance | [thc-methodology](https://github.com/Vel-Labs/thc-methodology), [project-scaffold](https://github.com/Vel-Labs/project-scaffold), [thc-leaderboard](https://github.com/Vel-Labs/thc-leaderboard) | Provide methods, project structure, and comparison tools for examining the claims behind a build. |
 
 ## Start Here
 
-| If you want to inspect... | Start with |
+| If you want to explore... | Start with |
 | --- | --- |
-| A desktop cockpit for terminal-first coding agents | [VelDesk](https://github.com/Vel-Labs/VelDesk) |
-| MCP-style capability boundaries for model tools | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) |
-| A local-first caregiver awareness prototype | [CareSight](https://github.com/Vel-Labs/CareSight) |
-| Agent action authorization and signable intent flow | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) |
-| The methodology behind the repo style | [thc-methodology](https://github.com/Vel-Labs/thc-methodology) |
+| The experience of using a coding agent | [VelDesk](https://github.com/Vel-Labs/VelDesk) |
+| Tools that give models more useful capabilities | [vel-mcp](https://github.com/Vel-Labs/vel-mcp) |
+| A local AI prototype for caregiver observations and review | [CareSight](https://github.com/Vel-Labs/CareSight) |
+| Permission and review for agent actions | [ClearIntent](https://github.com/Vel-Labs/ClearIntent) |
+| A way to examine what a project claims and demonstrates | [thc-methodology](https://github.com/Vel-Labs/thc-methodology) |
 
-<details>
-<summary>Operating principles</summary>
+## How the projects fit together
 
-- Keep powerful automation bounded, observable, and reviewable.
-- Treat local files, contracts, tests, receipts, and audit trails as first-class product surfaces.
-- Separate model cognition from deterministic system truth.
-- Make sensitive actions pass through explicit human approval or scoped authority.
-- Prefer useful prototypes with honest limits over polished claims without proof.
-- Preserve provenance when source material moves into docs, notes, wikis, demos, or product surfaces.
-- Make repo structure legible enough that humans and coding agents can work without hidden context.
+These projects look at different parts of the same experience. A workbench helps someone follow an agent's work. Capability tools let it interact with software. Local model experiments explore where processing can happen. Review methods and project scaffolds make the results easier to understand and build on.
 
-</details>
+Lessons can move between projects without making them one product. A useful interface pattern, a failed experiment, or a clearer way to document a result can inform the next build.
 
-<details>
-<summary>Project lanes in plain English</summary>
+The wider research explores coordination, memory, and simulation, alongside the tools and prototypes linked here.
 
-**Agent workbenches** turn raw coding-agent power into usable operator surfaces. The goal is not to hide the terminal; it is to expose session state, permissions, runtime health, transcripts, and headless execution clearly enough that daily use becomes calmer and safer.
+## Reading the lab
 
-**Agent orchestration** focuses on durable shared state, workflow contracts, MCP/ACP learning, hooks, plugins, subagents, profile routing, and provider boundaries. The point is to make agent work survive beyond one chat window.
+The repositories include tools, prototypes, and research. Their READMEs describe the setup, tests, and remaining gaps for each project. Inclusion here doesn't imply production readiness or an ongoing support commitment.
 
-**Capability layers** give models bounded tools and senses without flattening every permission into one giant agent. Vision, speech, memory, privacy, control, and audit surfaces should be separated when their trust boundaries differ.
-
-**Synthetic systems** explore what happens when simulated people have identity, memory, jobs, needs, households, media exposure, economy pressure, and long-horizon consequences. Deterministic systems own objective truth; model cognition owns appraisal and interpretation.
-
-**Local-first ML** treats sensitive context as something that should belong first to the user or household. Local perception, SQLite memory, human review, and no-send handoff paths matter more than cloud-first convenience.
-
-**Agent authority** asks how autonomous actions become scoped, reviewable, signable, and auditable before they touch wallets, identity, policy, or execution.
-
-**Reliability and governance** package the repo habits behind the work: source-of-truth boundaries, contract-first scaffolds, audit reports, review gates, and the Truth -> Hardening -> Clarity loop.
-
-</details>
-
-<details>
-<summary>What "inspectable" means here</summary>
-
-Inspectable does not mean every project is complete. It means a serious reader should be able to tell:
-
-- what the system claims;
-- what has been tested;
-- where the source of truth lives;
-- where model output is advisory;
-- what requires human approval;
-- what remains simulated, local-only, blocked, or risky;
-- which commands, reports, or receipts support the current state.
-
-That standard is intentionally practical. AI systems get more useful when people can see the boundary between capability and authority.
-
-</details>
+The aim is to make the work understandable: what problem prompted it, what was built, what the evidence shows, and what is still being learned.
 
 ## Recommended Pins
 
-For a first public pass, pin:
+These five projects are a useful introduction to the lab:
 
 1. [VelDesk](https://github.com/Vel-Labs/VelDesk)
 2. [vel-mcp](https://github.com/Vel-Labs/vel-mcp)
@@ -89,4 +54,4 @@ For a first public pass, pin:
 4. [ClearIntent](https://github.com/Vel-Labs/ClearIntent)
 5. [thc-methodology](https://github.com/Vel-Labs/thc-methodology)
 
-Maintained by [@velcrafting](https://github.com/velcrafting).
+Read more at [velcrafting.com](https://www.velcrafting.com) or explore [Steven's profile](https://github.com/velcrafting).
