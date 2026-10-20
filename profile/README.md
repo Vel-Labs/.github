@@ -55,3 +55,11 @@ These five projects are a useful introduction to the lab:
 5. [thc-methodology](https://github.com/Vel-Labs/thc-methodology)
 
 Read more at [velcrafting.com](https://www.velcrafting.com) or explore [Steven's profile](https://github.com/velcrafting).
+
+## Public Builds
+
+<!-- workspace-public-builds:start -->
+| Project | Description |
+| --- | --- |
+| [GodotBuddy](https://github.com/Vel-Labs/GodotBuddy) | Local Godot development companion with a CLI, web board and asset checks. Static QA does not establish visual quality or successful Godot import. |
+<!-- workspace-public-builds:end -->
