@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Vel-Labs inspectable systems map</title>
-  <desc id="desc">An animated organization banner showing Vel-Labs project lanes converging into inspectable AI systems with contracts, reviews, local-first defaults, and public repositories.</desc>
+  <title id="title">Vel-Labs research and building</title>
+  <desc id="desc">An animated map connecting agent workbenches, on-device AI, simulation, and permission design through research, building, testing, and learning.</desc>
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
       <stop offset="0" stop-color="#f7fbff"/>
@@ -28,23 +28,23 @@
   <path d="M52 276 C190 228 330 316 500 268 C672 220 792 304 984 244 C1070 218 1138 232 1180 252" fill="none" stroke="#c9ddd5" stroke-width="5" opacity="0.72"/>
 
   <text x="68" y="52" fill="#142f36" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="31" font-weight="750">Vel-Labs</text>
-  <text x="68" y="84" fill="#52656b" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">inspectable AI tooling, local-first prototypes, and proof-backed agent systems</text>
+  <text x="68" y="84" fill="#52656b" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">AI research, useful tools, and connected experiments</text>
 
   <g filter="url(#shadow)">
     <rect x="76" y="126" width="238" height="72" rx="18" fill="url(#card)" stroke="#d8e7e6"/>
     <text x="106" y="158" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Agent workbenches</text>
-    <text x="106" y="181" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">VelDesk / AOL</text>
+    <text x="106" y="181" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Sessions + coordination</text>
   </g>
   <g filter="url(#shadow)">
     <rect x="76" y="222" width="238" height="72" rx="18" fill="url(#card)" stroke="#d8e7e6"/>
     <text x="106" y="254" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Local ML systems</text>
-    <text x="106" y="277" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">CareSight / YOLO26 MLX</text>
+    <text x="106" y="277" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Vision + on-device AI</text>
   </g>
   <g filter="url(#shadow)">
     <rect x="428" y="102" width="338" height="196" rx="22" fill="#203a42"/>
     <rect x="454" y="132" width="286" height="136" rx="16" fill="#f8fcfb"/>
-    <text x="482" y="165" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="750">inspectable system core</text>
-    <text x="482" y="195" fill="#52656b" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">contracts + review gates + receipts</text>
+    <text x="482" y="165" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20" font-weight="750">research into practice</text>
+    <text x="482" y="195" fill="#52656b" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14">build + test + learn</text>
     <rect x="482" y="220" width="210" height="14" rx="7" fill="#dcebe7"/>
     <rect x="482" y="220" width="42" height="14" rx="7" fill="url(#accent)">
       <animate attributeName="width" dur="7.4s" repeatCount="indefinite" keyTimes="0;0.28;0.62;1" values="42;42;210;42"/>
@@ -54,12 +54,12 @@
   <g filter="url(#shadow)">
     <rect x="888" y="126" width="238" height="72" rx="18" fill="url(#card)" stroke="#d8e7e6"/>
     <text x="918" y="158" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Simulation systems</text>
-    <text x="918" y="181" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Civulacrum</text>
+    <text x="918" y="181" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Memory + evolving worlds</text>
   </g>
   <g filter="url(#shadow)">
     <rect x="888" y="222" width="238" height="72" rx="18" fill="url(#card)" stroke="#d8e7e6"/>
     <text x="918" y="254" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">Authority layers</text>
-    <text x="918" y="277" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">ClearIntent / THC</text>
+    <text x="918" y="277" fill="#63777d" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Permissions + review</text>
   </g>
 
   <path d="M314 162 C362 126 388 128 428 160" fill="none" stroke="#2a7f76" stroke-width="5" stroke-linecap="round" stroke-dasharray="14 12" marker-end="url(#arrow)">
@@ -77,7 +77,7 @@
 
   <g opacity="0.86">
     <rect x="810" y="42" width="314" height="40" rx="20" fill="#ffffff" stroke="#d8e7e6"/>
-    <text x="836" y="68" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700">powerful tools, visible boundaries</text>
+    <text x="836" y="68" fill="#203a42" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="16" font-weight="700">ideas into useful tools</text>
   </g>
 
   <g opacity="0.72">
