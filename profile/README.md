@@ -62,4 +62,5 @@ Read more at [velcrafting.com](https://www.velcrafting.com) or explore [Steven's
 | Project | Description |
 | --- | --- |
 | [GodotBuddy](https://github.com/Vel-Labs/GodotBuddy) | Local Godot development companion with a CLI, web board and asset checks. Static QA does not establish visual quality or successful Godot import. |
+| [Relay](https://github.com/Vel-Labs/relay) | Local project boards for agent reports, questions, messages and explicit delivery receipts. No automatic agent execution. |
 <!-- workspace-public-builds:end -->
